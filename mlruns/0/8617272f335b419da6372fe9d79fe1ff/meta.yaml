@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-Machine-Learning-Project-MLflow/mlruns/0/8617272f335b419da6372fe9d79fe1ff/artifacts
+end_time: 1726409448434
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8617272f335b419da6372fe9d79fe1ff
+run_name: wise-cod-268
+run_uuid: 8617272f335b419da6372fe9d79fe1ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726409444402
+status: 3
+tags: []
+user_id: vignesh

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/End-to-End-Machine-Learning-Project-MLflow/mlruns/0/665d9c5c42d440949d095e60ef73f811/artifacts
+end_time: 1726409062771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 665d9c5c42d440949d095e60ef73f811
+run_name: unruly-crow-16
+run_uuid: 665d9c5c42d440949d095e60ef73f811
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726409058804
+status: 3
+tags: []
+user_id: vignesh
