@@ -155,7 +155,7 @@ export MLFLOW_TRACKING_PASSWORD=e72434b23a653d24e6bc9ed73def97b5e7cc0fa9
 
     AWS_SECRET_ACCESS_KEY=
 
-    AWS_REGION = us-east-1
+    AWS_REGION = eu-north-1
 
     AWS_ECR_LOGIN_URI = demo>>  324037277821.dkr.ecr.eu-north-1.amazonaws.com
 
@@ -171,4 +171,4 @@ MLflow
  - Trace all of your expriements
  - Logging & tagging your model
 
- ##  THE END
+ 
