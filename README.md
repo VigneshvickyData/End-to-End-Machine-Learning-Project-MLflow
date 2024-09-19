@@ -121,7 +121,7 @@ export MLFLOW_TRACKING_PASSWORD=e72434b23a653d24e6bc9ed73def97b5e7cc0fa9
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 324037277821.dkr.ecr.eu-north-1.amazonaws.com/mlproject
+    - Save the URI: 324037277821.dkr.ecr.eu-north-1.amazonaws.com/mlops
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
@@ -146,6 +146,36 @@ export MLFLOW_TRACKING_PASSWORD=e72434b23a653d24e6bc9ed73def97b5e7cc0fa9
 	
 # 6. Configure EC2 as self-hosted runner:
     setting>actions>runner>new self hosted runner> choose os> then run command one by one
+     
+
+# To get an self hosted on online
+	   
+### Stop the self-hosted runner application if it is currently running.
+
+### Install the service with the following command:
+
+    sudo ./svc.sh install
+### Alternatively, the command takes an optional user argument to install the service as a different user.
+
+    ./svc.sh install USERNAME
+
+## Starting the service
+
+### Start the service with the following command:
+
+    sudo ./svc.sh start
+
+## Checking the status of the service
+### Check the status of the service with the following command:
+
+    sudo ./svc.sh status
+    
+	### For more information on viewing the status of your self-hosted runner, see "Monitoring and troubleshooting self-hosted runners."
+
+## Stopping the service
+### Stop the service with the following command:
+
+     sudo ./svc.sh stop
 
 
 # 7. Setup github secrets:
@@ -158,7 +188,7 @@ export MLFLOW_TRACKING_PASSWORD=e72434b23a653d24e6bc9ed73def97b5e7cc0fa9
 
     AWS_ECR_LOGIN_URI = demo>>  324037277821.dkr.ecr.eu-north-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = mlproject
+    ECR_REPOSITORY_NAME = mlops
 
 
 
