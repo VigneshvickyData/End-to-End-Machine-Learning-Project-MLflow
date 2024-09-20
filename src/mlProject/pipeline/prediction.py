@@ -14,3 +14,5 @@ class PredictionPipeline:
         prediction = self.model.predict(data)
 
         return prediction
+    
+    ## D:\End-to-End-Machine-Learning-Project-MLflow\artifacts\model_trainer\model.joblib
