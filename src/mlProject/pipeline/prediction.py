@@ -7,7 +7,7 @@ from pathlib import Path
 
 class PredictionPipeline:
     def __init__(self):
-        self.model = joblib.load(Path('artifacts\model_trainer\model.joblib'))
+        self.model = joblib.load(Path('artifacts/model_trainer/model.joblib'))
 
     
     def predict(self, data):
@@ -15,4 +15,4 @@ class PredictionPipeline:
 
         return prediction
     
-    ## D:\End-to-End-Machine-Learning-Project-MLflow\artifacts\model_trainer\model.joblib
+    ## D:\End-to-End-Machine-Learning-Project-MLflow\artifacts\model_trainer\model.joblib 
