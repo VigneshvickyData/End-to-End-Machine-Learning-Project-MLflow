@@ -1,4 +1,6 @@
-# End-to-End-Machine-Learning-Project-MLflow
+# Manufacturing Domain Project
+## Wine Quality Prediction 
+This project aims to predict the quality of wine using machine learning techniques. We use various physicochemical properties of wine to build predictive models that estimate the wine's quality, which is rated on a scale from 0 to 10.
 
 
 
@@ -200,4 +202,15 @@ MLflow
  - Trace all of your expriements
  - Logging & tagging your model
 
- 
+
+ ## Screenshot
+### Prediction Page
+![App Screenshot](https://github.com/VigneshvickyData/Data_Branching/blob/main/w1.png?raw=true)
+
+![App Screenshot](https://github.com/VigneshvickyData/Data_Branching/blob/main/w2.png?raw=true)
+
+![App Screenshot](https://github.com/VigneshvickyData/Data_Branching/blob/main/w3.png?raw=true)
+
+## Screenshot
+### Result Page
+![App Screenshot](https://github.com/VigneshvickyData/Data_Branching/blob/main/w4.png?raw=true)
